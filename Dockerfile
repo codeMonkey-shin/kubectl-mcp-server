@@ -43,4 +43,4 @@ ENV TRANSPORT=sse \
     PORT=8000
 
 # Run the server (align with FastMCP default port 8000)
-CMD ["python", "run_server.py", "--transport", "sse", "--port", "8000"]
+CMD ["python", "run_server.py", "--transport", "sse", "--port", "8000", "--host", "0.0.0.0"]
